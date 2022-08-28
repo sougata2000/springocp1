@@ -15,9 +15,9 @@ public class SpringOcp1Application {
 		return "Welcome to Java Springboot";
 	}
 
-	@GetMapping("/{input}")
-	public String congrats(@PathVariable String input) {
-		return "Welcome" + input;
+	@GetMapping("/{inputs}")
+	public String congrats(@PathVariable String inputs) {
+		return "Welcome" + inputs;
 
 	}
 
